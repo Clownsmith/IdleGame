@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, html {
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    background: #FFF;
+    overflow-x: hidden;
+}
+body {
+    padding: 20px;
+}
+.money-banner {
+    margin-bottom: 20px;
+}
+.upgrade {
+    opacity: 0;
+    transition: opacity .5s;
+}
+.upgrade.active {
+    opacity: 1;
+}
+.tab-element {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: 40px;
+}
+.element {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #DDD;
+}
+.click-element > .row {
+    display: flex;
+    align-items: center;
+}
